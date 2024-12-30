@@ -32,6 +32,7 @@
     "@mikro-orm/postgresql": "5.9.7",
     "awilix": "^8.0.1",
     "install": "^0.13.0",
+    "medusa": "^0.0.3",
     "pg": "^8.13.0"
   },
   "devDependencies": {
