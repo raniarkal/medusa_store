@@ -18,13 +18,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  sassOptions: {
-    includePaths: ['./src/styles'],
-  },
-  webpack: (config) => {
-    config.resolve.alias['@/styles'] = './src/styles';
-    return config;
-  },
   images: {
     remotePatterns: [
       {

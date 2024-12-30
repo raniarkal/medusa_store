@@ -24,6 +24,7 @@
     "types": [
       "node",
       "react",
+      "react-dom",
       "pg",
       "prop-types"
     ],
