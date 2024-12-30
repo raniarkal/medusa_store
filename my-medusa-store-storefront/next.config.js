@@ -38,6 +38,14 @@ const nextConfig = {
       },
     ],
   },
+  async rewrites() {
+    return [
+      {
+        source: '/:countryCode/categories/:category*',
+        destination: '/:countryCode/categories/:category*'
+      }
+    ]
+  },
 }
 
 module.exports = nextConfig
